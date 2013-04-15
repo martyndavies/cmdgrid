@@ -5,24 +5,16 @@
   "main": "./lib/cmdgrid.js",
   "bin": {"cmdgrid": "./lib/cmdgrid.js"},
   "directories": {"test": "./test", "bin": "./bin"},
-  "scripts": {
-    "test": "mocha test/*.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/martyndavies/cmdgrid.git"
-  },
+  "scripts": { "test": "mocha test/*.js" },
+  "repository": { "type": "git", "url": "git://github.com/martyndavies/cmdgrid.git" },
   "dependencies": {
     "commander": "*",
     "cli-table": "*",
-    "request": "*",
-    "colors": "*"
+    "request": "*"
   },
-
   "devDependencies": {
     "should": "*",
     "mocha": "*"
   },
-  "author": "Martyn Davies <martyn@sendgrid.com>",
-  "license": "MIT"
+  "author": "Martyn Davies <martyn@sendgrid.com>", "license": "MIT"
 }
