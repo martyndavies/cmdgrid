@@ -28,6 +28,13 @@ Flags are used to alternate options:
 
 You can pass short flags, like `-h`, or long flags like `--hostname`.
 
+### The -p flag
+
+The `-p` flag tells the application you'll be working with the Parse API.
+
+Although the application currently only supports the Parse API, it will support more aspects of SendGrid soon and flags will be used to differentiate between these, hence its requirement now.
+
+
 ### Adding a new setting
 
 Adding a new inbound parse setting requires both a hostname and a URL endpoint, so you must pass the `-h` and `-u` flags.
