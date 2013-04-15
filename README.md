@@ -1,6 +1,6 @@
 # CmdGrid
 
-Command line interface for interacting with the [SendGrid Parse API](http://docs.sendgrid.com) written in [node.js](http://nodejs.org).
+Command line interface for interacting with the [SendGrid Parse API](http://docs.sendgrid.com) written in [node.js](http://nodejs.org). The idea being that it speeds up the process of changing settings, particularly for developers who work in a terminal environment such as Vim.
 
 
 ## Installation
