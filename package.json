@@ -14,7 +14,8 @@
   },
   "dependencies": {
     "commander": "*",
-    "cli-table": "*"
+    "cli-table": "*",
+    "request": "*"
   },
 
   "devDependencies": {
