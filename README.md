@@ -9,7 +9,7 @@ Command line interface for interacting with the [SendGrid Parse API](http://docs
 
 ## Usage
 
-Once installed, you can run `$ cmd --help` to see a list of options, but given this application currently only deals with the SendGrid Parse API.
+Once installed, you can run `$ cmd --help` to see a list of options. This application currently only deals with the SendGrid Parse API.
 
 You have options to add, edit and delete your settings via the app.
 
@@ -45,3 +45,32 @@ Adding a new inbound parse setting requires both a hostname and a URL endpoint, 
 ### List all settings
 
     $ cmdgrid -p -l
+
+## Links
+
+[SendGrid Parse API](http://docs.sendgrid.com)
+
+## License
+
+(The MIT License)
+
+Copyright (c) 2013 Martyn Davies (martyn@sendgrid.com)
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+'Software'), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
