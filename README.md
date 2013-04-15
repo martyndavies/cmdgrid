@@ -17,16 +17,16 @@ Flags are used
 
 ### Adding a new setting
 
-		$ cmdgrid -p add -h madco.in -u http://madco.in/inbound.php
+    $ cmdgrid -p add -h madco.in -u http://madco.in/inbound.php
 
 ### Editing an existing setting
 
-		$ cmdgrid -p add -h madco.in -u http://alternativeurl.com/inbound.php
+    $ cmdgrid -p add -h madco.in -u http://alternativeurl.com/inbound.php
 
 ### Deleting a setting
 
-		$ cmdgrid -p add -h madco.in
+    $ cmdgrid -p add -h madco.in
 
 ### List all settings
 
-		$ cmdgrid -p -l
+    $ cmdgrid -p -l
