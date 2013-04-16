@@ -11,19 +11,15 @@ Command line interface for interacting with the [SendGrid Parse API](http://docs
 
 Once installed, you can run `$ cmd --help` to see a list of options. This application currently only deals with the SendGrid Parse API.
 
-You have options to add, edit and delete your settings via the app.
+You have options to `add`, `update`, `delete` and `list` your settings via the app.
 
 Flags are used to alternate options:
 
 ```
-	-p, --parse <option> [hostname] [url], [add|edit|delete] a new Parse API setting
-	-a, --add [hostname] [url], add a new endpoing'
-	-e, --edit [hostname] [url], 'edit a Parse API setting
-	-d, --delete [hostname], delete and endpoint and all settings associated with it
-	-u, --url <url>, specify a url endpoint
-	-h, --hostname <url>, specify a hostname
-	-s, --spamcheck <option>, specify if spam checking is to be performed (on|off)
-	-l, --list, list out all the current Parse API settings
+-p, --parse <option> [hostname] [url], options=[add|edit|delete|list] a new Parse API setting
+-u, --url <url>, specify a url endpoint
+-h, --hostname <url>, specify a hostname
+-s, --spamcheck <option>, specify if spam checking is to be performed (on|off)
 ```
 
 You can pass short flags, like `-h`, or long flags like `--hostname`.
@@ -41,17 +37,17 @@ Adding a new inbound parse setting requires both a hostname and a URL endpoint, 
 
     $ cmdgrid -p add -h madco.in -u http://madco.in/inbound.php
 
-### Editing an existing setting
+### Updating an existing setting
 
-    $ cmdgrid -p add -h madco.in -u http://alternativeurl.com/inbound.php
+    $ cmdgrid -p update -h madco.in -u http://alternativeurl.com/inbound.php
 
 ### Deleting a setting
 
-    $ cmdgrid -p add -h madco.in
+    $ cmdgrid -p delete -h madco.in
 
 ### List all settings
 
-    $ cmdgrid -p -l
+    $ cmdgrid -p list
 
 ## Links
 
