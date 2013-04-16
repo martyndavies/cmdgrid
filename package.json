@@ -1,12 +1,13 @@
 {
   "name": "cmdgrid",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Command line app for working with SendGrid's Parse API",
   "main": "./lib/cmdgrid.js",
   "bin": {"cmdgrid": "./lib/cmdgrid.js"},
   "directories": {"test": "./test", "bin": "./bin"},
   "scripts": { "test": "mocha test/*.js" },
   "repository": { "type": "git", "url": "git://github.com/martyndavies/cmdgrid.git" },
+  "keywords": ["cmdgrid", "sendgrid", "email", "parse", "command"],
   "dependencies": {
     "commander": "*",
     "cli-table": "*",
@@ -16,5 +17,12 @@
     "should": "*",
     "mocha": "*"
   },
-  "author": "Martyn Davies <martyn@sendgrid.com>", "license": "MIT"
+  "licenses": [{
+    "type": "MIT",
+    "url": "https://github.com/martyndavies/cmdgrid/blob/master/MIT.LICENSE"
+  }],
+  "author": {
+    "name": "Martyn Davies",
+    "email": "martyn@sendgrid.com",
+    "homepage": "http://martyndavies.github.io"
 }
