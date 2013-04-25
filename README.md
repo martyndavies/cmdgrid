@@ -57,7 +57,7 @@ Adding a new inbound parse setting requires both a hostname and a URL endpoint, 
 
 (The MIT License)
 
-Copyright (c) 2013 Martyn Davies (martyn@sendgrid.com)
+Copyright (c) 2013 Martyn Davies (martyn@martyndavies.net)
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
